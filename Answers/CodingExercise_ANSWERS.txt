@@ -1,0 +1,14 @@
+ERROR 1:
+Line 132: if optionCode = "1":
+Line 132: if optionCode == "1":
+
+ERROR 2:
+Line 2: logData = open("./PhoneLog")
+Line 2: logData = open("./PhoneLog.log")
+
+ERROR 3:
+(Swap lines 20 and 21)
+
+ERROR 4:
+Line 105: print(("%s %s %-" + str(longestNameLength) + "s  %s  %s") %(out[0], out[1], out[2], out[4], out[4]))
+Line 105: print(("%s %s %-" + str(longestNameLength) + "s  %s  %s") %(out[0], out[1], out[2], out[4], out[3]))
